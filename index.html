@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>soulwork@sarahstallner.com</title>
+  <title>Sarah Stallner Soulwork</title>
 
   <!-- Professional font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,11 +17,11 @@
       padding: 0;
       height: 100%;
       font-family: 'Inter', sans-serif;
-      background-color: #f2f2f2; /* light grey */
+      background-color: #f2f2f2;
       color: #111;
     }
 
-    /* Full screen image section */
+    /* Full screen image */
     .hero {
       height: 100vh;
       width: 100%;
@@ -35,7 +35,7 @@
       text-align: center;
     }
 
-    /* Optional text on top of image */
+    /* Text overlay */
     .hero-text {
       background: rgba(242, 242, 242, 0.85);
       padding: 2rem 3rem;
@@ -43,29 +43,27 @@
     }
 
     h1 {
-      font-weight: 500;
-      letter-spacing: 0.04em;
       margin: 0;
+      font-weight: 500;
+      letter-spacing: 0.08em;
       font-size: clamp(1.5rem, 4vw, 2.5rem);
+      text-transform: uppercase;
     }
 
     p {
-      font-weight: 300;
       margin-top: 1rem;
+      font-weight: 300;
       font-size: 1rem;
     }
-  </style>
-</head>
 
-<footer class="contact">
-  <p>
-    <a href="mailto:youremail@example.com">soulwork@sarahstallner.com</a><br>
-    <a href="https://www.youtube.com/@sarahstallner" target="_blank">YouTube</a>
-  </p>
-</footer>
-<body>
+    /* Contact footer */
+    footer.contact {
+      padding: 3rem 1rem;
+      text-align: center;
+      background-color: #f2f2f2;
+    }
 
-  
-
-</body>
-</html>
+    footer.contact p {
+      margin: 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em
